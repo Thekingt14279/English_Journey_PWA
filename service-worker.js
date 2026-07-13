@@ -1,11 +1,39 @@
-const CACHE_NAME = 'english-journey-v1';
+const CACHE_NAME = 'english-journey-v2';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
+  './fonts.css',
   './icon-192.png',
   './icon-512.png',
-  './apple-touch-icon.png'
+  './apple-touch-icon.png',
+  './fonts/Archivo-700-latin-ext.woff2',
+  './fonts/Archivo-700-latin.woff2',
+  './fonts/Archivo-700-vietnamese.woff2',
+  './fonts/Archivo-800-latin-ext.woff2',
+  './fonts/Archivo-800-latin.woff2',
+  './fonts/Archivo-800-vietnamese.woff2',
+  './fonts/IBMPlexMono-400-latin-ext.woff2',
+  './fonts/IBMPlexMono-400-latin.woff2',
+  './fonts/IBMPlexMono-400-vietnamese.woff2',
+  './fonts/IBMPlexMono-500-latin-ext.woff2',
+  './fonts/IBMPlexMono-500-latin.woff2',
+  './fonts/IBMPlexMono-500-vietnamese.woff2',
+  './fonts/IBMPlexMono-600-latin-ext.woff2',
+  './fonts/IBMPlexMono-600-latin.woff2',
+  './fonts/IBMPlexMono-600-vietnamese.woff2',
+  './fonts/PublicSans-400-latin-ext.woff2',
+  './fonts/PublicSans-400-latin.woff2',
+  './fonts/PublicSans-400-vietnamese.woff2',
+  './fonts/PublicSans-500-latin-ext.woff2',
+  './fonts/PublicSans-500-latin.woff2',
+  './fonts/PublicSans-500-vietnamese.woff2',
+  './fonts/PublicSans-600-latin-ext.woff2',
+  './fonts/PublicSans-600-latin.woff2',
+  './fonts/PublicSans-600-vietnamese.woff2',
+  './fonts/PublicSans-700-latin-ext.woff2',
+  './fonts/PublicSans-700-latin.woff2',
+  './fonts/PublicSans-700-vietnamese.woff2'
 ];
 
 self.addEventListener('install', (event) => {
